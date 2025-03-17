@@ -16,11 +16,5 @@ Here are some ideas to get you started:
 -->
 
 
-<p align="center">
-  <video width="600" controls>
-    <source src="https://raw.githubusercontent.com/IvanC987/IvanC987/main/output.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
 
-## Hello
+![output](https://github.com/user-attachments/assets/e7a2cde1-a517-4ee1-b1d7-d4e691244aea)
