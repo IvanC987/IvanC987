@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 
 <p align="center">
   <video width="600" controls>
-    <source src="https://github.com/IvanC987/IvanC987/output.mp4" type="video/mp4">
+    <source src="[https://github.com/IvanC987/IvanC987/output.mp4](https://raw.githubusercontent.com/IvanC987/IvanC987/main/output.mp4)" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </p>
