@@ -2,7 +2,7 @@
 🚀 Computer Science student | 🤖 AI/ML Enthusiast
 
 ## 🏆 Featured Project: DiffusionGen  
-​DiffusionGen is a Flask-based GUI designed for latent diffusion image generation. It offers both DDIM and DDPM, and offers advanced user controls such as prompt input, image-to-image generation, upscaling, among many others. The diffusion model itself was implemented and trainined completely from scratch using only foundational libraries like pytorch. The pipeline also incorporates various pretrained models—Stable Diffusion VAE, CLIP, Real-ESRGAN, and VGG16—into a custom Latent Diffusion Model pipeline for enhanced image synthesis.
+DiffusionGen is a Flask-based GUI built for latent diffusion image generation, providing advanced user controls such as prompt input, image-to-image generation, and upscaling. The core diffusion model was implemented and trained entirely from scratch using PyTorch, without reliance on prebuilt diffusion libraries. The backend is designed for customization and extensibility, incorporating pretrained models—including Stable Diffusion’s VAE, CLIP for text embeddings, Real-ESRGAN for upscaling, and VGG16 for perceptual loss—into a tailored Latent Diffusion Model pipeline for improved image synthesis.
 
 <br><br>
 
@@ -15,6 +15,15 @@
 <br>
 
 🔗 **GitHub Repo**: [DiffusionGen](https://github.com/IvanC987/DiffusionGen)
+
+### Other Projects:
+🔗 **GitHub Repo**: [SemanticSegmentationModel](https://github.com/IvanC987/SemanticSegmentationModel) - Implements a U-Net model for semantic segmentation, designed to classify and segment objects within images at a pixel level. The model is trained using the Cityscapes dataset and optimized for accuracy in real-world segmentation tasks.
+
+🔗 **GitHub Repo**: [TransformerLM](https://github.com/IvanC987/TransformerLM) - Implements a Transformer-based language model from scratch, integrating Byte Pair Encoding (BPE) for efficient tokenization. This project aims to provide a deeper understanding of how Transformers process and generate text at a more granular level.
+
+🔗 **GitHub Repo**: [LanguageTranslationModel](https://github.com/IvanC987/LanguageTranslationModel) - Builds a sequence-to-sequence translation model based on the Transformer architecture. The project focuses on neural machine translation, using self-attention mechanisms for text generation.
+
+---
 
 ## 🔧 Technologies & Tools I Use
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
