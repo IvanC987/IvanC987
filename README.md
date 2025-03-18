@@ -2,7 +2,7 @@
 🚀 Computer Science student | 🤖 AI/ML Enthusiast
 
 ## 🏆 Featured Project: DiffusionGen  
-​DiffusionGen is a Flask-based GUI designed for latent diffusion image generation. It offers both DDIM and DDPM, and offers advanced user controls such as prompt input, image-to-image generation, upscaling, among many others. The project incorporates various pretrained models—Stable Diffusion VAE, CLIP, Real-ESRGAN, and VGG16—into a custom Latent Diffusion Model pipeline for enhanced image synthesis.
+​DiffusionGen is a Flask-based GUI designed for latent diffusion image generation. It offers both DDIM and DDPM, and offers advanced user controls such as prompt input, image-to-image generation, upscaling, among many others. The diffusion model itself was implemented and trainined completely from scratch using only foundational libraries like pytorch. The pipeline also incorporates various pretrained models—Stable Diffusion VAE, CLIP, Real-ESRGAN, and VGG16—into a custom Latent Diffusion Model pipeline for enhanced image synthesis.
 
 <br><br>
 
