@@ -1,15 +1,24 @@
 # Hi there! 👋 I'm Ivan  
 🚀 Computer Science student | 🤖 AI/ML Enthusiast
 
-## 🏆 Featured Project: SimpleLLaMA:  
+## 🏆 Featured Project: SimpleLLaMA
 
 SimpleLLaMA is a modular, educational framework that reproduces the full training and alignment pipeline of modern Large Language Models (LLMs) - from pretraining to Supervised Fine-Tuning (SFT) and Direct Preference Optimization (DPO) for RLHF alignment.
 
 This project implements a 1.3B-parameter Transformer model inspired by LLaMA, trained on the FineWebEdu corpus, and includes complete scripts for dataset handling, distributed training, benchmarking (via EleutherAI’s lm-eval-harness), and interactive inference.
 
+
+<p align="center">
+  Prompt: The night sky stretches endlessly above a snow-covered winter landscape, shimmering with countless stars and the faint glow of the aurora borealis.
+  <br><br>
+  <img src="SL_Docs.png" width="128" height="128">
+</p>
+
+
 💡 Designed to demystify how LLMs are built and aligned, it serves both as an educational tool and a research framework for exploring model behavior.
 
 🔗 **GitHub Repo**: [SimpleLLaMA](https://github.com/IvanC987/SimpleLLaMA)
+
 📘 **Docs**: [Project Documentations](https://ivanc987.github.io/SimpleLLaMA/)
 
 ---
