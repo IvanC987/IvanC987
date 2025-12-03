@@ -9,7 +9,7 @@ This project implements a 1.3B-parameter Transformer model inspired by LLaMA, tr
 
 
 <p align="center">
-  Prompt: Primary Documentation Page
+  Primary Documentation Page
   <br><br>
   <img src="SL_Docs.png" width="512" height="512">
 </p>
@@ -62,15 +62,8 @@ DiffusionGen is a Flask-based GUI built for latent diffusion image generation, p
 
 <br>
 
-## 🔭 What I'm Working On
-- Researching Transformer-based architectures
-- Improving DiffusionGen with better UI/UX
-- Learning model quantization, LoRA, and others for optimizing LLMs
-
-<br>
-
-### 🚀 Next Project: Revisiting `LangugageTranslationModel`
-My next goal is to revisit my Translation Model project, focusing on using better dataset, enhancing accuracy, adding various adjustments
+### 🚀 Next Project: Revisiting Image Generation
+My next project is about revisiting my DiffusionGen project, focusing on using better dataset, enhancing features like CFG and in-painting, and adding various adjustments
 
 
 
