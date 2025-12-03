@@ -9,9 +9,9 @@ This project implements a 1.3B-parameter Transformer model inspired by LLaMA, tr
 
 
 <p align="center">
-  Prompt: The night sky stretches endlessly above a snow-covered winter landscape, shimmering with countless stars and the faint glow of the aurora borealis.
+  Prompt: Primary Documentation Page
   <br><br>
-  <img src="SL_Docs.png" width="128" height="128">
+  <img src="SL_Docs.png" width="512" height="512">
 </p>
 
 
