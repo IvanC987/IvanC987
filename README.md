@@ -85,9 +85,8 @@ The project provides a FastAPI backend and an interactive web interface, designe
 
 <br>
 
-### 🚀 Next Project: Revisiting Image Generation
-My next project is about revisiting my DiffusionGen project, focusing on using better dataset, enhancing features like CFG and in-painting, and adding various adjustments
-
+### 🚀 Next Project: ???
+My next project is not yet decided, however would likely be related to mechanistic interpretability
 
 
 
