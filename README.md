@@ -45,7 +45,7 @@ The project provides a FastAPI backend and an interactive web interface, designe
 <p align="center">
   Front-end UI
   <br><br>
-  <img src="DiffusionGen2.0/UI.png" width="256" height="256">
+  <img src="DiffusionGen2.0/UI.png" width="512" height="384">
 </p>
 
 <div align="center">
