@@ -23,24 +23,47 @@ This project implements a 1.3B-parameter Transformer model inspired by LLaMA, tr
 
 ---
 
-## 🎨Project: DiffusionGen:
-DiffusionGen is a Flask-based GUI built for latent diffusion image generation, providing advanced user controls such as prompt input, image-to-image generation, and upscaling. The core diffusion model was implemented and trained entirely from scratch using PyTorch, without reliance on prebuilt diffusion libraries. The backend is designed for customization and extensibility, incorporating pretrained models—including Stable Diffusion’s VAE, CLIP for text embeddings, Real-ESRGAN for upscaling, and VGG16 for perceptual loss—into a tailored Latent Diffusion Model pipeline for improved image synthesis.
+## 🎨Project: DiffusionGen2.0:
+DiffusionGen2 is a research-oriented latent diffusion system focuses more on experimental inference features, built as a successor to DiffusionGen (v1).
 
-<br><br>
+Unlike v1, which was more of a baseline end-to-end generation pipeline, DiffusionGen2 is more about advanced diffusion techniques like (actual) real-time denoising previews, prompt alignment, latent-space img2img/in-painting, and experimental sampling methods like visual anagrams.
+
+The model is trained from scratch in PyTorch and integrates external components like Stable Diffusion's VAE, CLIP for text conditioning, and Real-ESRGAN for better image quality. Training incorporates Min-SNR loss weighting, EMA, multiple noise schedules, and v-prediction to improve both quality and efficiency.
+
+The project provides a FastAPI backend and an interactive web interface, designed as a research sandbox for inspecting and extending diffusion behavior rather than a full production system.
+
+<br>
 
 <p align="center">
-  Prompt: The night sky stretches endlessly above a snow-covered winter landscape, shimmering with countless stars and the faint glow of the aurora borealis.
+  Prompt: A weathered dragon perched on a cliff, its scaled hide rattling in the wind as distant storm clouds gather.  
   <br><br>
-  <img src="https://github.com/user-attachments/assets/ba885fd6-16c1-4ff2-9b36-a8e1f1414271" width="128" height="128">
+  <img src="DiffusionGen2.0/dragon.gif" width="128" height="128">
 </p>
 
 <br>
 
-🔗 **GitHub Repo**: [DiffusionGen](https://github.com/IvanC987/DiffusionGen)
+<p align="center">
+  Front-end UI
+  <br><br>
+  <img src="DiffusionGen2.0/UI.png" width="256" height="256">
+</p>
+
+<div align="center">
+
+| Image 1 | Image 2 | Image 3 |
+|:-------:|:-------:|:-------:|
+| <img src="./DiffusionGen2.0/Gallery1.png" width="256"> | <img src="./DiffusionGen2.0/Gallery2.png" width="256"> | <img src="./DiffusionGen2.0/Gallery3.png" width="256"> |
+
+</div>
+
+
+🔗 **GitHub Repo**: [DiffusionGen2](https://github.com/IvanC987/DiffusionGen2.0)  
+🔗 **Previous Version**: [DiffusionGen v1](https://github.com/IvanC987/DiffusionGen)
 
 ---
 
 ### 🧉 Other Projects:
+
 🔗 **GitHub Repo**: [SemanticSegmentationModel](https://github.com/IvanC987/SemanticSegmentationModel) - Implements a U-Net model for semantic segmentation, designed to classify and segment objects within images at a pixel level. The model is trained using the Cityscapes dataset and optimized for accuracy in real-world segmentation tasks.
 
 🔗 **GitHub Repo**: [TransformerLM](https://github.com/IvanC987/TransformerLM) - Implements a Transformer-based language model from scratch, integrating Byte Pair Encoding (BPE) for efficient tokenization. This project aims to provide a deeper understanding of how Transformers process and generate text at a more granular level.
